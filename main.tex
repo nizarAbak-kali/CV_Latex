@@ -1,0 +1,168 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes p
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Nizar} % Your first name
+\familyname{ABAK-KALI} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\address{15, boulevard de la commune de Paris}{93200 Saint-Denis}
+\mobile{06.51.90.32.13}
+\email{abakkali.nizar@gmail.com}
+\title{Cv pour poste d'ingénieur développeur}
+
+% j'ai enlevé la photo car elle était trop violente
+%\photo[70pt][0.4pt]{pictures/indent} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+
+%----------------------------------------------------------------------------------------
+%	ÉDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Parcours Scolaire}
+\cventry{2015 - 2016}{Diplôme de Master en Informatique Embarqué}{à l'Université Paris 8}{}{}{}
+\cventry{2014 - 2015}{Première année de Master en Informatique Science du Logiciel}{à l'Université Paris 6}{}{}{}
+\cventry{2011 - 2014}{Diplôme de Licence Informatique}{à l'Université Paris 8}{Mention Bien}{}{}
+\cventry{2010 - 2011}{Baccalauréat série S (Spécialité Mathématiques)}{}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Expérience Professionnelle}
+
+\cvitem{}{\textbf{\emph{Stage R\&D chez Smile ECS}} -- février à aout 2017 }
+\cvitem{Sujet}{Développement d'une solution de transmission de donnée vidéo avec Gstreamer.
+Mise en place d'un systeme de provisionnement de machine virtuelle VirtualBox, automatique, avec Ansible et Vagrant.}
+
+\cvitem{}{\textbf{\emph{Stage chez Neo-Robotix}} -- mi-Mai à mi-Septembre 2016}
+\cvitem{Sujet}{Développement d'une solution d'inspection d'ouvrage autonome par drone sur ROS. Lors de ce stage dans la start-up Neo-Robotix j'ai été chargé de plusieurs missions qui participe au développement de la télé-opération.}
+
+\cvitem{}{\textbf{\emph{Stage au LIASD\footnote{Laboratoire d' Informatique Avancée de Saint- Denis}}} -- Juillet 2014}
+\cvitem{Sujet}{Conception de module de contrôle de robot à distance à l'aide de ROS. Ce stage consiste en la conception d'une solution pour la création et le contrôle d'une main robot.}
+\cvitem{Environnement}{Projet en équipe de 3}
+\cvitem{Outils}{Programmation en C++, Python, et Arduino sous Linux}
+\cvitem{}{}
+
+\cvitem{}{\textbf{\emph{Tuteur à l'Université Paris 8}} -- lors de l'année scolaire 2014}
+\cvitem{Sujet}{Accompagnement des étudiant de licence informatique lors de leurs projets et travaux pratiques.}
+\cvitem{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Compétences informatiques}
+\cvitem{langages}{C, \textsc{java},  Python, Android, Arduino, C++, OCaml, Lisp}
+\cvitem{Web}{HTML5, Javascript, CSS, PHP}
+\cvitem{Bases de données}{MySQL, Oracle SQL, PostGreSQL, SQLite}
+\cvitem{Frameworks et outils}{ ROS, OpenCV, Caffe, Gstreamer, Junit4, Selenium, REST, Flaskr, NodeJs}
+
+\section{Projets réalisés}
+\cvitem{}{\textbf{\emph{Projet Le Bon Plan}} -- 2014}
+\cvitem{Sujet}{Développer une Application Android de partage d'événement}
+\cvitem{Conditions}{Projet en équipe de 4 sur 1 mois}
+\cvitem{Outils}{Programmation en Java J2EE/Android}
+\cvitem{}{}
+
+\cvitem{}{\textbf{\emph{Projet egrep}} -- 2015}
+\cvitem{Sujet}{Implémentation de la fonction shell : egrep. Écriture de parseur/lexeur. Implémentation d'automates de reconnaissance des motifs donnée par une expression régulière étendue}
+\cvitem{Conditions}{Projet en binôme}
+\cvitem{Outils}{Programmation en Java}
+\cvitem{}{}
+
+\cvitem{}{\textbf{\emph{Projet FlappyBird}} -- 2015}
+\cvitem{Sujet}{Développement du jeu FlappyBird sur navigateur}
+\cvitem{Conditions}{Projet personnel}
+\cvitem{Outils}{Programmation en HTML5/Javascript}
+\cvitem{}{}
+
+
+\cvitem{}{\textbf{\emph{Projet Casse-Tête}} -- 2016}
+\cvitem{Sujet}{Développement d'un jeu de Casse-Tête en Android}
+\cvitem{Conditions}{Projet d'un mois en binôme}
+\cvitem{Outils}{Programmation en Java/Android}
+\cvitem{}{}
+
+\cvitem{}{\textbf{\emph{Projet Interface Cerveau-Machine}} -- 2016}
+\cvitem{Sujet}{Développement d'un BCI en java afin d'interpréter les signaux EEG d'un patient atteint d'Alzeihmer}
+\cvitem{Conditions}{Projet en binôme de 6 mois}
+\cvitem{Outils}{Programmation en Java}
+\cvitem{}{}
+
+\cvitem{}{\textbf{\emph{Projet NodeTube}} -- 2016}
+\cvitem{Sujet}{Développement d'un scrapper NodeJs pour récupérer les vidéos Youtube}
+\cvitem{Conditions}{Projet personnel}
+\cvitem{Outils}{Programmation en Javascript/Jade}
+\cvitem{}{}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Autres Compétences}
+
+\cvitem{Langues}{Anglais, professionnel, niveau C2}
+\cvitem{       }{Arabe, langue maternelle}
+\cvitem{       }{Espagnol, notions scolaires, niveau B1}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Centres d'intérêt}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{Art Martiaux}{Bandes Dessinés}
+\cvlistdoubleitem{Basketball}{Cinéma}
+\cvlistdoubleitem{Programmation}{Sciences}
+
+
+\end{document}
